@@ -5,5 +5,5 @@ This script copies the contents (newer than 365 days, or a given retention perio
 ## Usage
 
 ``` bash
-python3 parallel_s3_copy.py (-s | --source-bucket) <NAME_OF_BUCKET> (-d | --dest-bucket) [ (-r|--retention) <RETENTION IN DAYS> ] <NAME_OF_BUCKET>
+python3 parallel_s3_copy.py (-s | --source-bucket) <NAME_OF_BUCKET> (-d | --dest-bucket) <NAME_OF_BUCKET> [ (-r|--retention) <RETENTION IN DAYS> ]
 ```
